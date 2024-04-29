@@ -1,3 +1,5 @@
+# import openai for performing tasks
+
 import openai
 
 # Set your OpenAI API key
@@ -10,6 +12,8 @@ def ask_question(question):
         # Provide the question to the model and get the response
         response = openai.ChatCompletion(
             engine="text-davinci-002",  # Choose the engine based on your preference
+            # like you can set to gpt-3.5 turbo
+            
             prompt=question,
             max_tokens=100,
             temperature=0.7
