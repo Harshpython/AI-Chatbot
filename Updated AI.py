@@ -14,7 +14,7 @@ def ask_question(question):
             engine="text-davinci-002",  # Choose the engine based on your preference
             # like you can set to gpt-3.5 turbo
             
-            prompt=question,
+            prompt=question, # using prompt command
             max_tokens=100,
             temperature=0.7
         )
