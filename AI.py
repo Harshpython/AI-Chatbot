@@ -7,19 +7,19 @@ def chat_with_gpt(prompt):
     # IN this the chat completion is for python older version 
     # you can use according to yours
     response=openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model="gpt-3.5-turbo",# using  model of gpt turbo
         messages=[{"role":"user","content": prompt}]
     )
 
     return response.choices[0].message.content.strip()
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":# main function
     while True:
         user_input=input("ME:")
         if user_input.lower() in ["quit","exit","bye"]:
             break
 
-        response=chat_with_gpt(user_input)
+        response=chat_with_gpt(user_input)# response generated
 
         print("Harsh Chatbot: ", response)
