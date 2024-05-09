@@ -18,7 +18,7 @@ def ask_question(question):
             max_tokens=100,
             temperature=0.7
         )
-        return response.choices[0].text.strip()
+        return response.choices[0].text.strip()# to return the prompt answer
     except Exception as e:
         print("An error occurred:", e)
         return None
@@ -29,18 +29,18 @@ def main():
     print("Type 'exit' to end the conversation.")
 
     while True:
-        user_input = input("You: ")
+        user_input = input("You: ")# input the question
         if user_input.lower() == 'exit':
             print("Chatbot: Goodbye!")
             break
 
         # Get the response from the chatbot
         response = ask_question(user_input)
-        if response:
+        if response:# response generated
             print("Chatbot:", response)
         else:
             print("Chatbot: Sorry, I couldn't understand that.")
 
 
 if __name__ == "__main__":
-    main()
+    main()# main function called
