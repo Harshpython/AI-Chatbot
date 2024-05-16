@@ -22,13 +22,13 @@ def ask_question(question):
     except Exception as e:
         print("An error occurred:", e)
         return None
-
+#Driver code
 
 def main():
     print("Welcome to the Chatbot!")
     print("Type 'exit' to end the conversation.")
 
-    while True:
+    while True:# condition
         user_input = input("You: ")# input the question
         if user_input.lower() == 'exit':
             print("Chatbot: Goodbye!")
