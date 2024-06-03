@@ -7,7 +7,7 @@ api_key = ""
 openai.api_key = api_key
 
 
-def ask_question(question):
+def ask_question(question):# writing a fuction about the model based on  the requirements
     try:
         # Provide the question to the model and get the response
         response = openai.ChatCompletion(
@@ -16,7 +16,7 @@ def ask_question(question):
             
             prompt=question, # using prompt command
             max_tokens=100,
-            temperature=0.7
+            temperature=0.7# setting the temperature
         )
         return response.choices[0].text.strip()# to return the prompt answer
     except Exception as e:
