@@ -14,7 +14,7 @@ def chat_with_gpt(prompt):
     return response.choices[0].message.content.strip()
 
 
-if __name__ == "__main__":# main function
+if __name__ == "__main__":# writing the main function
     while True:
         user_input=input("ME:")
         if user_input.lower() in ["quit","exit","bye"]:
