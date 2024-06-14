@@ -7,7 +7,8 @@ api_key = ""
 openai.api_key = api_key
 
 
-def ask_question(question):# writing a fuction about the model based on  the requirements
+def ask_question(question)
+:# writing a fuction about the model based on  the requirements
     try:
         # Provide the question to the model and get the response
         response = openai.ChatCompletion(
