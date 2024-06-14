@@ -1,3 +1,4 @@
+
 # to install openai run command pip install openai
 
 import openai
