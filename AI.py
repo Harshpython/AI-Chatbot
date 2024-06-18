@@ -2,7 +2,7 @@
 # to install openai run command pip install openai
 
 import openai
-openai.api_key="" #Enter your api key
+openai.api_key="" #Enter your api key 
 
 def chat_with_gpt(prompt):
     # IN this the chat completion is for python older version 
