@@ -7,7 +7,7 @@ This project is an AI-powered chatbot built using OpenAI's GPT-3 or GPT-4 model.
   
  Features 
 
-- Interactive chatbot powered by OpenAI's GPT model. 
+- Interactive chatbot powered by OpenAI's GPT model.  
 - User-friendly web interface developed with Flask.
 - Supports natural language understanding and generation.
 - Easily extendable for various use cases like customer support, information retrieval, and more. 
