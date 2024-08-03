@@ -6,7 +6,7 @@ import openai
 api_key = ""
 openai.api_key = api_key 
 
-
+ 
 def ask_question(question)
 :# writing a fuction about the model based on  the requirements
     try:
