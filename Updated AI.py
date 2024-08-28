@@ -1,7 +1,7 @@
 # import openai for performing tasks
  
 import openai
-
+ 
 # Set your OpenAI API key
 api_key = ""
 openai.api_key = api_key 
