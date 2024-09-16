@@ -11,7 +11,7 @@ def chat_with_gpt(prompt):
         model="gpt-3.5-turbo",# using  model of gpt turbo
         messages=[{"role":"user","content": prompt}]# the messages will be dispalyed
     )
-
+ 
     return response.choices[0].message.content.strip()
 
 
