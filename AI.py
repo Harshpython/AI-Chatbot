@@ -3,7 +3,7 @@
 
 import openai
 openai.api_key="" #Enter your api key 
-
+ 
 def chat_with_gpt(prompt):
     # IN this the chat completion is for python older version 
     # you can use according to yours
