@@ -1,6 +1,4 @@
- 
-# to install openai run command pip install openai
-
+ # to install openai run command pip install openai
 import openai
 openai.api_key="" #Enter your api key 
  
